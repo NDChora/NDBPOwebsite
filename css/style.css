@@ -1,6 +1,6 @@
 
 .container-fluid li a{
-    font-size: 29px;
+    font-size: 23px;
     padding : 10px;
     margin-left: 10px;
     text-decoration: none;
@@ -24,6 +24,8 @@
     
 }
 
-.navbar image
-    border-radius: 100%;
+.navbar-image{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
 }
