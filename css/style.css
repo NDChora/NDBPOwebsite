@@ -1,14 +1,13 @@
 
 .container-fluid li a{
-    font-size: 23px;
+    font-size: 29px;
     padding : 10px;
     margin-left: 10px;
     text-decoration: none;
      color:white;
     font-weight: bold;
     text-align: center;
-    text-decoration: none;
-    
+    text-decoration: none;   
  }
 
 .navbar font{
@@ -28,4 +27,48 @@
     height: 40px;
     width: 40px;
     border-radius: 50px;
+}
+
+.card-image{
+    width: 250px;
+    height: 250px;
+    margin-top: 36px;
+}
+
+
+.card2{
+    margin-left:300px;
+    margin-top:50px;
+}
+.card2 h5{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card2 li{
+    font-size: 26px;
+    list-style: none;
+}
+.card2 li a{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.card2 li a:hover{
+    color: blue;
+}
+
+
+.card3{
+    margin-top: 100px;
+
+}
+.card3 h5{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card3 li{
+    list-style: none;
+    font-size: 24px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
