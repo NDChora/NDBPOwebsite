@@ -1,3 +1,13 @@
+.a{
+    color: darkturquoise;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+    
+}
 
 .container-fluid li a{
     font-size: 29px;
@@ -28,6 +38,75 @@
     width: 40px;
     border-radius: 50px;
 }
+
+/* footer new */
+.footer{
+    padding: 0px;
+    background-color:silver; 
+}
+
+
+.social-size{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.social-login{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    margin-left: 0px;
+
+}
+
+.p-1{
+    height: 50px;
+    width: 50px;
+    background-color: #f5f6fa;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 1px 4px 2px 2px #dcdee1;
+    line-height: 55px;
+    text-align: center;
+}
+
+i{
+    transition: all 0.2s linear;
+
+}
+
+.p-1:hover i {
+    transform: scale(1.4);
+}
+
+.fa-instagram {
+    color: #e84393;
+}
+
+.fa-youtube {
+    color: #e84118;
+}
+
+.fa-linkedin {
+    color: #0097e6;
+}
+
+.fa-twitter {
+    color: #0097e6;
+}
+
+.fa-whatsapp {
+    color: #25D366;
+}
+
+
+
+
+
+/*footerold*/
 
 .card-image{
     width: 250px;
