@@ -1,4 +1,4 @@
-.a{
+a{
     color: darkturquoise;
     margin-left: 10px;
     text-decoration: none;
@@ -6,8 +6,10 @@
 
 body{
     margin: 0px;
-    
+    padding: 0px;
 }
+
+/* nav bar */
 
 .container-fluid li a{
     font-size: 29px;
@@ -39,13 +41,17 @@ body{
     border-radius: 50px;
 }
 
-/* footer new */
+/* footer */
+
 .footer{
     padding: 0px;
     background-color:silver; 
 }
 
-
+.footer-right{
+    text-decoration-style: double;
+    font-size: 17px;
+}
 .social-size{
     padding: 0px;
     margin: 0px;
@@ -102,60 +108,25 @@ i{
     color: #25D366;
 }
 
+/*  Contact Form New  */
 
-
-
-
-/*footerold*/
-
-.card-image{
-    width: 250px;
-    height: 250px;
-    margin-top: 36px;
+.body-contact{
+    background: linear-gradient(90deg, #0e3959 0%, #0e3959 30%, #03a9f5 30%, #03a9f5 100%);
+    position: relative;
+    size-adjust: auto;
 }
 
-
-.card2{
-    margin-left:30px;
-    margin-top:50px;
-}
-.card2 h5{
-    font-size: 30px;
-    font-weight: bold;
-}
-.card2 li{
-    font-size: 26px;
-    list-style: none;
-}
-.card2 li a{
-    font-family:Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: black;
-}
-.card2 li a:hover{
-    color: blue;
-}
-
-
-.card3{
-    margin-top: 50px;
-
-}
-.card3 h5{
-    font-size: 30px;
-    font-weight: bold;
-}
-.card3 li{
-    list-style: none;
-    font-size: 24px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+.card-contact{
+    margin: 40px;
+    background: transparent;
+    outline: none;
+    border: none;
 }
 
 
 
 
-/*----contact form-----*/
+/*----contact form old-----*/
 
 
 .row{
