@@ -590,3 +590,25 @@ img-thumbnail{
 
 
 /*  Career css End  */
+
+
+
+
+/* privacy css started */
+
+.section-a h1{
+    color: #0097e6;
+    margin: 10px;
+}
+.section-a{
+    padding: 20px;
+}
+
+.section-a h3{
+    margin: 10px;
+}
+.section-a p{
+     margin: 20px;
+}
+
+/* privacy css  End */
