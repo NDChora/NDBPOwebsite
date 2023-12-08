@@ -215,6 +215,25 @@ i{
     margin: 0px;
 }
 
+.f-1{
+    padding: 10px 0;
+}
+.text-footer{
+    font-weight: 500;
+    color: rgb(255, 253, 253); 
+    background:#058fda;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
 /* responsive footer */
 
 @media(max-width:767px){
@@ -612,3 +631,25 @@ img-thumbnail{
 }
 
 /* privacy css  End */
+
+
+
+/*  refund css started  */
+
+.section-B h1{
+    color: #0097e6;
+    margin: 10px;
+}
+
+.section-B{
+    padding: 20px;
+}
+.section-B h3{
+    margin: 10px;
+}
+
+.section-B p{
+    margin: 20px;
+}
+
+/*  refund css end */
