@@ -1,3 +1,7 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 a{
     color: darkturquoise;
     margin-left: 10px;
@@ -36,9 +40,9 @@ body{
 }
 
 .navbar-image{
-    height: 40px;
-    width: 40px;
-    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    /* border-radius: 50px; */
 }
 
 /* footer */
@@ -616,20 +620,18 @@ img-thumbnail{
 
 
 /* privacy css started */
-
-.section-a h1{
-    color: #0097e6;
-    margin: 10px;
+.privacy{
+    padding: 40px;
 }
-.section-a{
-    padding: 20px;
+.privacy h1{
+    text-align: center;
 }
-
-.section-a h3{
-    margin: 10px;
+.privacy h3{
+    text-align: center;
+    margin: 20px;
 }
-.section-a p{
-     margin: 20px;
+.privacy li{
+  padding-left: 30px;
 }
 
 /* privacy css  End */
