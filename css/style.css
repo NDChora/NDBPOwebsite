@@ -517,20 +517,13 @@ i{
 img-thumbnail{
     padding: 50px;
 }
-
+.about{
+    background: #CAF7FC;
+}
 .wrapper{
    padding: 10px;
     margin: 0px;
 }
-
-/* @keyframes s{
-    from{
-        margin-left: 50%;
-    }
-    to{
-        margin-left: 5%;
-    }
-} */
 
 .Tag-text-big{
     padding:10px;
@@ -565,6 +558,10 @@ img-thumbnail{
 
 
 /*  Career css started  */
+
+.career{
+    background: #CAF7FC;
+}
 
 .section-1 h5{
     font-size: 30px;
@@ -659,3 +656,32 @@ img-thumbnail{
 }
 
 /*  refund css end */
+
+
+
+/*  our service started */
+
+.service{
+    background: #CAF7FC;
+}
+.service h1{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.card{
+    display: inline-block;
+    margin: 20px;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+}
+
+.card .s-img{
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*  our service end */
