@@ -659,6 +659,8 @@ img-thumbnail{
 
 
 
+
+
 /*  our service started */
 
 .service{
@@ -668,19 +670,12 @@ img-thumbnail{
     text-align: center;
     padding: 20px;
 }
-
-
 .card{
     display: inline-block;
     margin: 20px;
-    width: 400px;
-    height: 350px;
+    /* width: 400px;
+    height: 350px; */
     text-align: center;
-}
-
-.card .s-img{
-    text-align: center;
-    padding: 10px;
 }
 
 
