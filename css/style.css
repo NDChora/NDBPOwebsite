@@ -513,13 +513,10 @@ i{
 
 /*  About us css started */
 
-
-img-thumbnail{
-    padding: 50px;
-}
-.about{
+.body-about{
     background: #CAF7FC;
 }
+
 .wrapper{
    padding: 10px;
     margin: 0px;
@@ -559,14 +556,14 @@ img-thumbnail{
 
 /*  Career css started  */
 
-.career{
+.career-body{
     background: #CAF7FC;
 }
 
 .section-1 h5{
     font-size: 30px;
     font-weight: 500;
-    margin-top: 20px;
+    padding-top: 20px;
     text-align: center;
 }
  
@@ -611,8 +608,11 @@ img-thumbnail{
 
 
 /* privacy css started */
-.privacy{
+
+.body-privacy{
     background: #e2f5ff;
+}
+.privacy{
     padding: 40px;
 }
 .privacy h1{
@@ -634,7 +634,7 @@ img-thumbnail{
 
 /*  refund css started  */
 
-.section-B{
+.body-refund{
     background: #e2f5ff;
 }
 
@@ -660,12 +660,12 @@ img-thumbnail{
 
 
 
+/* =========== our service started============== */
 
-/*  our service started */
-
-.service{
+.service-body{
     background: #CAF7FC;
 }
+
 .service h1{
     text-align: center;
     padding: 20px;
@@ -673,10 +673,308 @@ img-thumbnail{
 .card{
     display: inline-block;
     margin: 20px;
-    /* width: 400px;
-    height: 350px; */
     text-align: center;
 }
 
 
-/*  our service end */
+/*webdev css started*/
+.web-body{
+    background: #CAF7FC;
+}
+.web{
+    padding: 0px 50px;
+}
+.web h1{
+    text-align: center;
+    text-shadow: 2px 6px 5px gray;
+    margin: 10px;
+}
+.web h4{
+    text-align: center;
+    padding: 20px;
+}
+.web h3{
+    margin: 10px;
+    text-align: center;  
+}
+.web p{
+    text-shadow: 2px 6px 5px gray;
+    padding-top: 25px;
+    font-size: 30px;
+    text-align: center;
+    /* width: 400px; */
+    font-weight: 500;
+}
+.web p::after{
+    content: '';
+    height: 2px;
+    width: 150px;
+    background-color: #961414;
+    display: block;
+    margin: auto;
+}
+.web li{
+    list-style: none;
+    text-align: center;
+    /* width: 400px; */
+    /* background: silver; */
+    background: #0e3959;
+    padding: 10px;
+    margin: 15px 400px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+/*webdev css End*/
+
+
+
+
+/*web-host css started*/
+.webhost-body{
+    background: #CAF7FC;
+}
+.web-host{
+    padding: 0px 20px;
+}
+.web-host h1{
+    text-align: center;
+    text-shadow: 2px 6px 5px gray;
+    margin: 10px;
+}
+.web-host h4{
+    text-align: center;
+    padding: 20px;
+}
+.web-host h3{
+    margin: 10px;
+    text-align: center; 
+}
+.web-host p{
+    text-shadow: 2px 6px 5px gray;
+    padding-top: 25px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+.web-host p::after{
+    content: '';
+    height: 2px;
+    width: 150px;
+    background-color: #961414;
+    display: block;
+    margin: auto;
+}
+.web-host li{
+    list-style: none;
+    text-align: center;
+    /* width: 400px; */
+    /* background: silver; */
+    background: #0e3959;
+    padding: 10px;
+    margin: 15px 400px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+/*web-host css End*/
+
+
+/*metadata css started*/
+.metadata-body{
+    background: #CAF7FC;
+}
+.meta-data{
+    padding: 0px 20px;
+}
+.meta-data h1{
+    text-shadow: 2px 6px 5px gray;
+    text-align: center;
+    margin: 10px;
+}
+/*metadata css end*/
+
+
+/*google css started*/
+.google-body{
+    background: #CAF7FC;
+}
+.google-ad{
+    padding: 0px 20px;
+}
+.google-ad h1{
+    text-align: center;
+    text-shadow: 2px 6px 5px gray;
+    margin: 10px;
+} 
+/*google css end*/
+
+
+/* whatsapp bulk messaging stated*/
+.whatsapp-bulk{
+    padding: 0px 20px;
+}
+.whatsapp-bulk h1{
+    text-align: center;
+    text-shadow: 2px 6px 5px gray;
+    padding: 20px;
+}
+.whatsapp-bulk .card{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+/* whatsapp bulk messaging End*/
+
+
+
+/*whatsapp-broad casting css started*/
+.whatsappbulk-body{
+    background: #CAF7FC;
+}
+.broad-casting{
+    padding: 0px 20px;
+}
+.broad-casting h1{
+    text-align: center;
+    text-shadow: 2px 6px 5px gray;
+    margin: 10px;
+}
+.broad-casting h4{
+    text-align: center;
+    padding: 20px;
+}
+.broad-casting h3{
+    margin: 10px;
+    text-align: center; 
+}
+.broad-casting p{
+    text-shadow: 2px 6px 5px gray;
+    padding-top: 25px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+.broad-casting p::after{
+    content: '';
+    height: 2px;
+    width: 150px;
+    background-color: #961414;
+    display: block;
+    margin: auto;
+}
+.broad-casting li{
+    list-style: none;
+    text-align: center;
+    /* width: 400px; */
+    /* background: silver; */
+    background: #0e3959;
+    padding: 10px;
+    margin: 15px 400px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+/*whatsapp-broad casting css end*/
+
+
+
+/*whatsapp-board casting css started*/
+.chatbot-body{
+    background: #CAF7FC;
+}
+.chat-bot{
+    padding: 0px 20px;
+}
+.chat-bot h1{
+    text-align: center;
+    text-shadow: 2px 6px 5px gray;
+    margin: 10px;
+}
+.chat-bot h3{
+    margin: 10px;
+    text-align: center; 
+}
+.chat-bot p{
+    text-shadow: 2px 6px 5px gray;
+    padding-top: 25px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+.chat-bot p::after{
+    content: '';
+    height: 2px;
+    width: 150px;
+    background-color: #961414;
+    display: block;
+    margin: auto;
+}
+.chat-bot li{
+    list-style: none;
+    text-align: center;
+    /* width: 400px; */
+    /* background: silver; */
+    background: #0e3959;
+    padding: 10px;
+    margin: 15px 400px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+/*whatsapp-board casting css end*/
+
+
+
+
+
+
+
+/*whatsapp-API css started*/
+.whatsappapi-body{
+    background: #CAF7FC;
+}
+.whatsapp-api{
+    padding: 0px 20px;
+}
+.whatsapp-api h1{
+    text-align: center;
+    text-shadow: 2px 6px 5px gray;
+    margin: 10px;
+}
+/*whatsapp-API css end*/
+
+
+/*staff hiring css started*/
+.stafhirebody{
+    background: #CAF7FC;
+}
+.staff-hiring{
+    padding: 0px 20px;
+    text-shadow: 2px 6px 5px gray;
+}
+.staff-hiring h1{
+    text-align: center;
+    margin: 10px;
+}
+/*staff hiring css end*/
+
+
+
+
+
+
+/* ============our service end================== */
+
+
+
+
+
+
+/* ====faq css started====*/
+
+.faq-body{
+    background: #CAF7FC;
+}
+
+/*====faq css started====*/
