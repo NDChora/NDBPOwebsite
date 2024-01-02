@@ -675,14 +675,25 @@ i{
     margin: 20px;
     text-align: center;
 }
+.card-body a{
+    margin-left: 120px;
+    background: #a064ee;
+
+}
+/* =========== our service started============== */
 
 
-/*webdev css started*/
+
+
+
+
+
+/*========webdev css started==========*/
 .web-body{
     background: #CAF7FC;
 }
 .web{
-    padding: 0px 50px;
+    padding: 0px 50px 50px 50px;
 }
 .web h1{
     text-align: center;
@@ -697,15 +708,15 @@ i{
     margin: 10px;
     text-align: center;  
 }
-.web p{
+.web h6{
     text-shadow: 2px 6px 5px gray;
     padding-top: 25px;
+    padding-bottom: 40px;
     font-size: 30px;
     text-align: center;
-    /* width: 400px; */
     font-weight: 500;
 }
-.web p::after{
+.web h6::after{
     content: '';
     height: 2px;
     width: 150px;
@@ -713,19 +724,92 @@ i{
     display: block;
     margin: auto;
 }
-.web li{
-    list-style: none;
-    text-align: center;
-    /* width: 400px; */
-    /* background: silver; */
-    background: #0e3959;
-    padding: 10px;
-    margin: 15px 400px;
-    font-size: 20px;
-    font-weight: 500;
-    color: #fff;
+
+
+
+
+.web .wrapper{
+    padding: 50px 100px;
 }
-/*webdev css End*/
+.web .w-right{
+    padding: 27px 140px;
+}
+.web .cube{
+    height: 0;
+    width: 0;
+    position: absolute;
+
+}
+.web .face{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    transform-origin: 0 0;
+}
+.web .left{
+    /* background: #0e3959; */
+    background: #40266b;
+    transform: rotate(90deg) skewX(-30deg) scaleY(0.864);
+}
+.web .right{
+    background: #6347a5;
+    /* background: #246c6e; */
+    transform: rotate(-30deg) skewX(-30deg) scaleY(0.864);
+    bottom: 50px;
+}
+.web .top{
+    background: #937fee;
+    /* background: #116366; */
+    transform: rotate(210deg) skew(-30deg) scaleY(0.864);
+    bottom: 100px;
+}
+.web .container{
+    font-size: 16px;
+    height: 50px;
+    width: 15%;
+    position: relative;
+    background: #5a3aa5;
+    /* background: #116366; */
+    text-align: center;
+    margin: -23px 38px;
+    
+    &:before{
+        position: absolute;
+        content: '';
+        width:40px;
+        height: 40px;
+        z-index: 1;
+        border-right: none;
+        border-bottom: none;
+        background: #CAF7FC;
+        transform: rotate(45deg);
+        right: -17px;
+        top: 3px;
+    }
+}
+
+.web .wrapper p{
+    /* background: #fff; */
+    font-size: 21px;
+    font-weight: 600;
+    height: 40px;
+    width: 30%;
+    top: -16px;
+    text-align: center;
+    /* margin: -50px 22%; */
+    margin: -50px 20%;
+    padding: 5px;
+}
+
+/*===========webdev css End============*/
+
+
+
+
+
+
+
+
 
 
 
