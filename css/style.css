@@ -13,8 +13,8 @@ body{
     padding: 0px;
 }
 
-/* nav bar */
 
+/*===============nav bar===============*/
 .container-fluid li a{
     font-size: 29px;
     padding : 10px;
@@ -42,10 +42,14 @@ body{
 .navbar-image{
     height: 50px;
     width: 50px;
-    /* border-radius: 50px; */
 }
 
-/* footer */
+
+
+
+
+
+/*===============footer===============*/
 
 *{
     margin: 0px;
@@ -53,7 +57,6 @@ body{
     box-sizing: border-box;
 }
 .container{
-    /* max-width: 1330px; */
     max-width: 1170px;
     background-color: silver;
     margin: auto;
@@ -234,12 +237,6 @@ i{
     justify-content: center;
 }
 
-
-
-
-
-
-
 /* responsive footer */
 
 @media(max-width:767px){
@@ -255,7 +252,13 @@ i{
     }
 }
 
-/* Contact Us */
+
+
+
+
+
+
+/*===============Contact Us===============*/
 
 .body-contact{
     background: linear-gradient(90deg, #0e3959 0%, #0e3959 30%, #03a9f5 30%, #03a9f5 100%);
@@ -511,7 +514,11 @@ i{
 
 
 
-/*  About us css started */
+
+
+
+
+/*===============About us css started===============*/
 
 .body-about{
     background: #CAF7FC;
@@ -546,7 +553,6 @@ i{
 }
 
 
-/*  About us css end  */
 
 
 
@@ -554,7 +560,8 @@ i{
 
 
 
-/*  Career css started  */
+
+/*===============Career css started===============*/
 
 .career-body{
     background: #CAF7FC;
@@ -573,7 +580,6 @@ i{
     font-weight: 400;
     padding-left: 20px;
 }
-
 
 .section{
     padding: 30px;
@@ -602,12 +608,15 @@ i{
 }
 
 
-/*  Career css End  */
 
 
 
 
-/* privacy css started */
+
+
+
+
+/*===============privacy css started===============*/
 
 .body-privacy{
     background: #e2f5ff;
@@ -628,21 +637,22 @@ i{
   padding-left: 30px;
 }
 
-/* privacy css  End */
 
 
 
-/*  refund css started  */
 
+
+
+
+
+/*===============refund css started===============*/
 .body-refund{
     background: #e2f5ff;
 }
-
 .section-B h1{
     text-align: center;
     margin: 10px;
 }
-
 .section-B{
     padding: 20px;
 }
@@ -650,12 +660,16 @@ i{
     margin: 10px;
     margin-top: 25px;
 }
-
 .section-B p{
     margin: 20px;
 }
 
-/*  refund css end */
+
+
+
+
+
+
 
 
 
@@ -680,7 +694,8 @@ i{
     background: #a064ee;
 
 }
-/* =========== our service started============== */
+
+
 
 
 
@@ -708,15 +723,15 @@ i{
     margin: 10px;
     text-align: center;  
 }
-.web h6{
+.web h5{
     text-shadow: 2px 6px 5px gray;
     padding-top: 25px;
-    padding-bottom: 40px;
-    font-size: 30px;
+    padding-bottom: 30px;
+    font-size: 34px;
     text-align: center;
     font-weight: 500;
 }
-.web h6::after{
+.web h5::after{
     content: '';
     height: 2px;
     width: 150px;
@@ -725,83 +740,23 @@ i{
     margin: auto;
 }
 
-
-
-
-.web .wrapper{
-    padding: 50px 100px;
-}
-.web .w-right{
-    padding: 27px 140px;
-}
-.web .cube{
-    height: 0;
-    width: 0;
-    position: absolute;
-
-}
-.web .face{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    transform-origin: 0 0;
-}
-.web .left{
-    /* background: #0e3959; */
-    background: #40266b;
-    transform: rotate(90deg) skewX(-30deg) scaleY(0.864);
-}
-.web .right{
-    background: #6347a5;
-    /* background: #246c6e; */
-    transform: rotate(-30deg) skewX(-30deg) scaleY(0.864);
-    bottom: 50px;
-}
-.web .top{
-    background: #937fee;
-    /* background: #116366; */
-    transform: rotate(210deg) skew(-30deg) scaleY(0.864);
-    bottom: 100px;
-}
-.web .container{
-    font-size: 16px;
-    height: 50px;
-    width: 15%;
-    position: relative;
-    background: #5a3aa5;
-    /* background: #116366; */
-    text-align: center;
-    margin: -23px 38px;
-    
-    &:before{
-        position: absolute;
-        content: '';
-        width:40px;
-        height: 40px;
-        z-index: 1;
-        border-right: none;
-        border-bottom: none;
-        background: #CAF7FC;
-        transform: rotate(45deg);
-        right: -17px;
-        top: 3px;
-    }
+.web .wrapper .Tag-text-big{
+    padding:10px;
+    width: 60%;
+    background: #bbbbbb;
+    font-size: 30px;
+    font-weight: 500;
+    box-shadow: 1px 4px 2px 2px #0515f7b4;
 }
 
-.web .wrapper p{
-    /* background: #fff; */
-    font-size: 21px;
-    font-weight: 600;
-    height: 40px;
-    width: 30%;
-    top: -16px;
-    text-align: center;
-    /* margin: -50px 22%; */
-    margin: -50px 20%;
-    padding: 5px;
+.web .wrapper .SubTag-text-small{
+    width: 60%;
+    font-size: 25px;
+    padding: 20px;
+    background: #b0faf0;
+    font-weight: 500; 
 }
 
-/*===========webdev css End============*/
 
 
 
@@ -814,7 +769,8 @@ i{
 
 
 
-/*web-host css started*/
+
+/*================web-host css started===================*/
 .webhost-body{
     background: #CAF7FC;
 }
@@ -834,14 +790,15 @@ i{
     margin: 10px;
     text-align: center; 
 }
-.web-host p{
+.web-host h5{
     text-shadow: 2px 6px 5px gray;
     padding-top: 25px;
+    padding-bottom: 30px;
     font-size: 30px;
     text-align: center;
     font-weight: 500;
 }
-.web-host p::after{
+.web-host h5::after{
     content: '';
     height: 2px;
     width: 150px;
@@ -849,22 +806,34 @@ i{
     display: block;
     margin: auto;
 }
-.web-host li{
-    list-style: none;
-    text-align: center;
-    /* width: 400px; */
-    /* background: silver; */
-    background: #0e3959;
-    padding: 10px;
-    margin: 15px 400px;
-    font-size: 20px;
+.web-host .Tag-text-big{
+    padding:10px;
+    width: 50%;
+    background: #bbbbbb;
+    font-size: 30px;
     font-weight: 500;
-    color: #fff;
+    box-shadow: 1px 4px 2px 2px #0515f7b4;
 }
-/*web-host css End*/
+
+.web-host .SubTag-text-small{
+    width: 50%;
+    font-size: 25px;
+    padding: 20px;
+    background: #b0faf0;
+    font-weight: 500;
+    
+}
 
 
-/*metadata css started*/
+
+
+
+
+
+
+
+
+/*===============metadata css started===============*/
 .metadata-body{
     background: #CAF7FC;
 }
@@ -876,10 +845,17 @@ i{
     text-align: center;
     margin: 10px;
 }
-/*metadata css end*/
 
 
-/*google css started*/
+
+
+
+
+
+
+
+
+/*===============google css started===============*/
 .google-body{
     background: #CAF7FC;
 }
@@ -891,10 +867,18 @@ i{
     text-shadow: 2px 6px 5px gray;
     margin: 10px;
 } 
-/*google css end*/
 
 
-/* whatsapp bulk messaging stated*/
+
+
+
+
+
+
+
+
+
+/* ===============whatsapp bulk messaging stated===============*/
 .whatsapp-bulk{
     padding: 0px 20px;
 }
@@ -908,11 +892,16 @@ i{
     margin: 20px;
     text-align: center;
 }
-/* whatsapp bulk messaging End*/
 
 
 
-/*whatsapp-broad casting css started*/
+
+
+
+
+
+
+/*===============whatsapp-broad casting css started===============*/
 .whatsappbulk-body{
     background: #CAF7FC;
 }
@@ -932,14 +921,15 @@ i{
     margin: 10px;
     text-align: center; 
 }
-.broad-casting p{
+.broad-casting h5{
     text-shadow: 2px 6px 5px gray;
     padding-top: 25px;
+    padding-bottom: 30px;
     font-size: 30px;
     text-align: center;
     font-weight: 500;
 }
-.broad-casting p::after{
+.broad-casting h5::after{
     content: '';
     height: 2px;
     width: 150px;
@@ -947,23 +937,36 @@ i{
     display: block;
     margin: auto;
 }
-.broad-casting li{
-    list-style: none;
-    text-align: center;
-    /* width: 400px; */
-    /* background: silver; */
-    background: #0e3959;
-    padding: 10px;
-    margin: 15px 400px;
-    font-size: 20px;
+.broad-casting .Tag-text-big{
+    padding:10px;
+    width: 50%;
+    background: #bbbbbb;
+    font-size: 30px;
     font-weight: 500;
-    color: #fff;
+    box-shadow: 1px 4px 2px 2px #0515f7b4;
 }
-/*whatsapp-broad casting css end*/
+.broad-casting .SubTag-text-small{
+    width: 50%;
+    font-size: 25px;
+    padding: 20px;
+    background: #b0faf0;
+    font-weight: 500; 
+}
 
 
 
-/*whatsapp-board casting css started*/
+
+
+
+
+
+
+
+
+
+
+
+/*===============whatsapp-board casting css started===============*/
 .chatbot-body{
     background: #CAF7FC;
 }
@@ -979,14 +982,15 @@ i{
     margin: 10px;
     text-align: center; 
 }
-.chat-bot p{
+.chat-bot h5{
     text-shadow: 2px 6px 5px gray;
     padding-top: 25px;
+    padding-bottom: 30px;
     font-size: 30px;
     text-align: center;
     font-weight: 500;
 }
-.chat-bot p::after{
+.chat-bot h5::after{
     content: '';
     height: 2px;
     width: 150px;
@@ -994,19 +998,21 @@ i{
     display: block;
     margin: auto;
 }
-.chat-bot li{
-    list-style: none;
-    text-align: center;
-    /* width: 400px; */
-    /* background: silver; */
-    background: #0e3959;
-    padding: 10px;
-    margin: 15px 400px;
-    font-size: 20px;
+.chat-bot .Tag-text-big{
+    padding:10px;
+    width: 50%;
+    background: #bbbbbb;
+    font-size: 30px;
     font-weight: 500;
-    color: #fff;
+    box-shadow: 1px 4px 2px 2px #0515f7b4;
 }
-/*whatsapp-board casting css end*/
+.chat-bot .SubTag-text-small{
+    width: 50%;
+    font-size: 25px;
+    padding: 20px;
+    background: #b0faf0;
+    font-weight: 500; 
+}
 
 
 
@@ -1014,7 +1020,11 @@ i{
 
 
 
-/*whatsapp-API css started*/
+
+
+
+
+/*===============whatsapp-API css started===============*/
 .whatsappapi-body{
     background: #CAF7FC;
 }
@@ -1026,10 +1036,19 @@ i{
     text-shadow: 2px 6px 5px gray;
     margin: 10px;
 }
-/*whatsapp-API css end*/
 
 
-/*staff hiring css started*/
+
+
+
+
+
+
+
+
+
+
+/*===============staff hiring css started===============*/
 .stafhirebody{
     background: #CAF7FC;
 }
@@ -1041,24 +1060,20 @@ i{
     text-align: center;
     margin: 10px;
 }
-/*staff hiring css end*/
 
 
 
 
 
 
-/* ============our service end================== */
 
 
 
 
 
-
-/* ====faq css started====*/
+/* ==================faq css started===================*/
 
 .faq-body{
     background: #CAF7FC;
 }
 
-/*====faq css started====*/
