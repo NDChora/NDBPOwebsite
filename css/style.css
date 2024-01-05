@@ -715,15 +715,15 @@ i{
     text-shadow: 2px 6px 5px gray;
     margin: 10px;
 }
-.web h4{
+.web h3{
     text-align: center;
     padding: 20px;
 }
-.web h3{
+.web h2{
     margin: 10px;
     text-align: center;  
 }
-.web h5{
+.web h6{
     text-shadow: 2px 6px 5px gray;
     padding-top: 25px;
     padding-bottom: 30px;
@@ -731,7 +731,7 @@ i{
     text-align: center;
     font-weight: 500;
 }
-.web h5::after{
+.web h6::after{
     content: '';
     height: 2px;
     width: 150px;
@@ -739,7 +739,13 @@ i{
     display: block;
     margin: auto;
 }
-
+.web .card img{
+    width: 15rem;
+    height: 140px;
+}
+.web .card p{
+    font-weight: 500;
+}
 .web .wrapper .Tag-text-big{
     padding:10px;
     width: 60%;
@@ -748,7 +754,6 @@ i{
     font-weight: 500;
     box-shadow: 1px 4px 2px 2px #0515f7b4;
 }
-
 .web .wrapper .SubTag-text-small{
     width: 60%;
     font-size: 25px;
@@ -756,6 +761,13 @@ i{
     background: #b0faf0;
     font-weight: 500; 
 }
+.web .w-1 h3{
+    padding-bottom: 10px;
+}
+.web .w-1 h3 a{
+    color:#961414;
+}
+
 
 
 
@@ -790,7 +802,7 @@ i{
     margin: 10px;
     text-align: center; 
 }
-.web-host h5{
+.web-host h6{
     text-shadow: 2px 6px 5px gray;
     padding-top: 25px;
     padding-bottom: 30px;
@@ -798,7 +810,7 @@ i{
     text-align: center;
     font-weight: 500;
 }
-.web-host h5::after{
+.web-host h6::after{
     content: '';
     height: 2px;
     width: 150px;
@@ -814,15 +826,39 @@ i{
     font-weight: 500;
     box-shadow: 1px 4px 2px 2px #0515f7b4;
 }
-
+/* 
 .web-host .SubTag-text-small{
     width: 50%;
     font-size: 25px;
     padding: 20px;
     background: #b0faf0;
-    font-weight: 500;
-    
+    font-weight: 500;   
+} */
+.web-host .w-2{
+    display: flex;
+    /* padding: 0px 0px 0px 400px ; */
+    padding-left: 30%;
+    padding-top: 30px;
 }
+.web-host .w-2 li{
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
+    background: #fff;
+}
+
+
+.web-host .w-1 h3{
+    padding-bottom: 10px;
+}
+.web-host .w-1 h3 a{
+    color:#961414;
+}
+
+
 
 
 
