@@ -540,16 +540,12 @@ i{
 .SubTag-text-small{
     font-size: 25px;
     padding: 20px;
-    background: #b0faf0;
-    font-weight: 500;
-    
+    font-weight: 500;  
 }
 
 .wrapper ul{
     font-size: 20px;
     font-weight: 500;
-    background: #bdf8f0;
-
 }
 
 
@@ -596,13 +592,11 @@ i{
 .section li{
     list-style: none;
     margin: 20px;
-    background: #b0faf0;
     font-size:25px;
     font-weight: 500;
 }
 .section p{
     margin: 20px;
-    background: #b0faf0;
     font-size:25px;
     font-weight: 500;
 }
@@ -758,13 +752,10 @@ i{
     width: 60%;
     font-size: 25px;
     padding: 20px;
-    background: #b0faf0;
     font-weight: 500; 
 }
 
-.web .w-1 p{
-    padding-left: 20px;
-    margin:0px;
+.web .w-1 h3 b{ 
     color: rgb(209, 11, 11);
     font-size: 40px;
     font-weight: 500;
@@ -807,79 +798,51 @@ i{
     padding: 20px;
 }
 .web-host .w-1 h3{
-    margin: 10px;
-    text-shadow: 2px 6px 5px gray;
-    padding-top: 25px;
-    padding-bottom: 30px;
-    font-size: 30px;
-}
-.web-host .w-1 h3::after{
-    content: '';
-    height: 2px;
-    width: 340px;
-    background-color: #961414;
-    display: block;
-}
-.web-host  .w-1 li{
-    text-align: center;
-    width: 200px;
-    list-style: none;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 10px;
-    margin: 10px;
-    background: #fff;
-}
-
-.web-host .w-2 h3{
-    margin: 10px;
-    text-shadow: 2px 6px 5px gray;
-    padding-top: 25px;
-    padding-bottom: 30px;
-    font-size: 30px;
-}
-.web-host .w-2 h3::after{
-    content: '';
-    height: 2px;
-    width: 310px;
-    background-color: #961414;
-    display: block;
-}
-.web-host  .w-2 .text{
-    width: 400px;
-    list-style: none;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 10px;
-    margin: 10px;
-    background: #fff;
-}
-
-.web-host .Tag-text-big{
     padding:10px;
-    width: 50%;
+    margin: 20px;
+    width: 30%;
     background: #bbbbbb;
     font-size: 30px;
     font-weight: 500;
     box-shadow: 1px 4px 2px 2px #0515f7b4;
 }
 
-.web-host .w-3 h3{
-    margin: 10px;
-    text-shadow: 2px 6px 5px gray;
-    padding-top: 25px;
-    padding-bottom: 30px;
-    font-size: 30px;
-}
-.web-host .w-3 h3::after{
-    content: '';
-    height: 2px;
-    width: 352px;
-    background-color: #961414;
-    display: block;
+.web-host .w-1 li{
+    margin: 20px;
+    width: 30%;
+    list-style: none;
+    font-size: 23px;
+    font-weight: 500;
 }
 
-.web-host .w-4 p{
+.web-host .w-2 h3{
+    padding:10px;
+    margin: 20px;
+    width: 30%;
+    background: #bbbbbb;
+    font-size: 30px;
+    font-weight: 500;
+    box-shadow: 1px 4px 2px 2px #0515f7b4;
+}
+.web-host  .w-2 .text{
+    margin: 20px;
+    width: 30%;
+    list-style: none;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.web-host .w-3 h3{
+    padding:10px;
+    margin: 20px;
+    width: 30%;
+    background: #bbbbbb;
+    font-size: 30px;
+    font-weight: 500;
+    box-shadow: 1px 4px 2px 2px #0515f7b4;
+}
+
+.web-host .w-4 h3 b{
     padding-left: 20px;
     margin:0px;
     color: rgb(209, 11, 11);
@@ -887,7 +850,7 @@ i{
     font-weight: 500;
 }
 .web-host .w-4 h3{
-    margin-left: 18px;
+    padding: 50px;
     text-align: center;
 }
 .web-host .w-4 h3 a{
@@ -921,6 +884,23 @@ i{
     margin: 10px;
 }
 
+.meta-data .w-4 h3 b{
+    padding-left: 20px;
+    margin:0px;
+    color: rgb(209, 11, 11);
+    font-size: 40px;
+    font-weight: 500;
+}
+.meta-data .w-4 h3{
+    text-align: center;
+    padding: 30px;
+}
+.meta-data .w-4 h3 a{
+    color:#961414;
+}
+.meta-data .w-4 h3 a:hover{
+    color:#2359eb;
+}
 
 
 
@@ -943,6 +923,24 @@ i{
     margin: 10px;
 } 
 
+
+.google-ad .w-4 h3 b{
+    padding-left: 20px;
+    margin:0px;
+    color: rgb(209, 11, 11);
+    font-size: 40px;
+    font-weight: 500;
+}
+.google-ad .w-4 h3{
+    text-align: center;
+    padding: 30px;
+}
+.google-ad .w-4 h3 a{
+    color:#961414;
+}
+.google-ad .w-4 h3 a:hover{
+    color:#2359eb;
+}
 
 
 
@@ -997,30 +995,25 @@ i{
     text-align: center; 
 }
 .broad-casting h5{
-    text-shadow: 2px 6px 5px gray;
-    padding-top: 25px;
-    padding-left: 20px;
+    padding:10px;
+    margin: 20px;
+    width: 30%;
+    background: #bbbbbb;
     font-size: 30px;
     font-weight: 500;
-}
-.broad-casting h5::after{
-    content: '';
-    height: 2px;
-    width: 115px;
-    background-color: #961414;
-    display: block;
+    box-shadow: 1px 4px 2px 2px #0515f7b4; 
 }
 .broad-casting .text{
-        width: 400px;
-        list-style: none;
-        font-size: 20px;
-        font-weight: 500;
-        padding: 10px;
-        margin: 10px;
-        background: #fff;
+    background: #b0faf0;
+    padding:10px;
+    margin: 10px;
+    width: 30%;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
 }
 
-.broad-casting .w-4 p{
+.broad-casting .w-4 h3 b{
     padding-left: 20px;
     margin:0px;
     color: rgb(209, 11, 11);
@@ -1028,7 +1021,7 @@ i{
     font-weight: 500;
 }
 .broad-casting .w-4 h3{
-    margin-left: 18px;
+    padding: 40px;
     text-align: center;
 }
 .broad-casting .w-4 h3 a{
@@ -1037,7 +1030,6 @@ i{
 .broad-casting .w-4 h3 a:hover{
     color:#2359eb;
 }
-
 
 
 
@@ -1071,37 +1063,33 @@ i{
     text-align: center; 
 }
 .chat-bot h5{
-    text-shadow: 2px 6px 5px gray;
-    padding-top: 25px;
-    padding-left: 20px;
+    padding:10px;
+    margin: 20px;
+    width: 30%;
+    background: #bbbbbb;
     font-size: 30px;
     font-weight: 500;
+    box-shadow: 1px 4px 2px 2px #0515f7b4; 
 }
-.chat-bot h5::after{
-    content: '';
-    height: 2px;
-    width: 115px;
-    background-color: #961414;
-    display: block;
-}
+
 .chat-bot .text{
-    width: 400px;
+    background: #b0faf0;
+    padding:10px;
+    margin: 10px;
+    width: 30%;
     list-style: none;
     font-size: 20px;
     font-weight: 500;
-    padding: 10px;
-    margin: 10px;
-    background: #fff;
 }
-.chat-bot .w-4 p{
-    padding-left: 20px;
+.chat-bot .w-4  b{
+    padding-left: 10px;
     margin:0px;
     color: rgb(209, 11, 11);
     font-size: 40px;
     font-weight: 500;
 }
 .chat-bot .w-4 h3{
-    margin-left: 18px;
+    padding: 30px;
     text-align: center;
 }
 .chat-bot .w-4 h3 a{
@@ -1110,8 +1098,6 @@ i{
 .chat-bot .w-4 h3 a:hover{
     color:#2359eb;
 }
-
-
 
 
 
@@ -1137,6 +1123,23 @@ i{
     margin: 10px;
 }
 
+.whatsapp-api .w-4 h3 b{
+    padding-left: 20px;
+    margin:0px;
+    color: rgb(209, 11, 11);
+    font-size: 40px;
+    font-weight: 500;
+}
+.whatsapp-api .w-4 h3{
+    text-align: center;
+    padding: 30px;
+}
+.whatsapp-api .w-4 h3 a{
+    color:#961414;
+}
+.whatsapp-api .w-4 h3 a:hover{
+    color:#2359eb;
+}
 
 
 
@@ -1152,13 +1155,29 @@ i{
 .stafhirebody{
     background: #CAF7FC;
 }
-.staff-hiring{
+.staff-hiring h1{
     padding: 0px 20px;
     text-shadow: 2px 6px 5px gray;
-}
-.staff-hiring h1{
     text-align: center;
     margin: 10px;
+}
+
+.staff-hiring .w-4 h3 b{
+    padding-left: 20px;
+    margin:0px;
+    color: rgb(209, 11, 11);
+    font-size: 40px;
+    font-weight: 500;
+}
+.staff-hiring .w-4 h3{
+    text-align: center;
+    padding: 30px;
+}
+.staff-hiring .w-4 h3 a{
+    color:#961414;
+}
+.staff-hiring  .w-4 h3 a:hover{
+    color:#2359eb;
 }
 
 
