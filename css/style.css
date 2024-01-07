@@ -1004,7 +1004,6 @@ i{
     box-shadow: 1px 4px 2px 2px #0515f7b4; 
 }
 .broad-casting .text{
-    background: #b0faf0;
     padding:10px;
     margin: 10px;
     width: 30%;
@@ -1073,7 +1072,6 @@ i{
 }
 
 .chat-bot .text{
-    background: #b0faf0;
     padding:10px;
     margin: 10px;
     width: 30%;
@@ -1155,6 +1153,9 @@ i{
 .stafhirebody{
     background: #CAF7FC;
 }
+.staff-hiring{
+    padding: 0px 20px;
+}
 .staff-hiring h1{
     padding: 0px 20px;
     text-shadow: 2px 6px 5px gray;
@@ -1186,6 +1187,42 @@ i{
 
 
 
+/* ==================cutomer support css started===================*/
+
+.stafhirebody{
+    background: #CAF7FC;
+}
+.cust-support{
+    padding: 0px 20px;
+}
+.cust-support h1{
+    padding: 0px 20px;
+    text-shadow: 2px 6px 5px gray;
+    text-align: center;
+    margin: 10px;
+}
+
+.cust-support .w-4 h3 b{
+    padding-left: 20px;
+    margin:0px;
+    color: rgb(209, 11, 11);
+    font-size: 40px;
+    font-weight: 500;
+}
+.cust-support .w-4 h3{
+    text-align: center;
+    padding: 30px;
+}
+.cust-support .w-4 h3 a{
+    color:#961414;
+}
+.cust-support .w-4 h3 a:hover{
+    color:#2359eb;
+}
+
+
+
+
 
 
 
@@ -1196,3 +1233,25 @@ i{
     background: #CAF7FC;
 }
 
+
+
+
+
+
+
+/* ================== Service faq css started===================*/
+
+.serv-faq .accordion{
+    padding: 20px;
+}
+
+
+
+
+
+
+/* ==================Creer faq css started===================*/
+
+.car-faq .accordion{
+    padding: 20px;
+}
