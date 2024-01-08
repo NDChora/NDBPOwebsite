@@ -1033,10 +1033,9 @@ i{
     display: block;
     margin: auto;
 }
-.web .card img{
-    width: 15rem;
-    height: 140px;
-}
+.web .card-body{
+   background-color: #dbeef7;
+} 
 .web .card p{
     font-weight: 500;
 }
