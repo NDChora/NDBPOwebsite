@@ -1047,13 +1047,11 @@ i{
     font-weight: 500;
     box-shadow: 1px 4px 2px 2px #0515f7b4;
 }
-.web .wrapper .SubTag-text-small{
-    width: 60%;
-    font-size: 25px;
+.web .wrapper .text{
+    font-size: 20px;
     padding: 20px;
     font-weight: 500; 
 }
-
 .web .w-1 h3 b{ 
     color: rgb(209, 11, 11);
     font-size: 40px;
