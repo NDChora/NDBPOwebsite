@@ -1419,6 +1419,41 @@ i{
     margin: 10px;
 }
 
+.meta-data h6{
+    text-shadow: 2px 6px 5px gray;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font-size: 34px;
+    text-align: center;
+    font-weight: 500;
+}
+.meta-data h6::after{
+    content: '';
+    height: 2px;
+    width: 150px;
+    background-color: #961414;
+    display: block;
+    margin: auto;
+}
+.meta-data .card-body{
+   background-color: #dbeef7;
+} 
+.meta-data .card p{
+    font-weight: 500;
+}
+.meta-data .wrapper .Tag-text-big{
+    padding:10px;
+    width: 50%;
+    background: #bbbbbb;
+    font-size: 30px;
+    font-weight: 500;
+    box-shadow: 1px 4px 2px 2px #0515f7b4;
+}
+.meta-data .wrapper .text{
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 500; 
+}
 .meta-data .w-4 h3 b{
     padding-left: 20px;
     margin:0px;
@@ -1442,9 +1477,6 @@ i{
 
 
 
-
-
-
 /*===============google css started===============*/
 .google-body{
     background: #CAF7FC;
@@ -1457,8 +1489,41 @@ i{
     text-shadow: 2px 6px 5px gray;
     margin: 10px;
 } 
-
-
+.google-ad h6{
+    text-shadow: 2px 6px 5px gray;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font-size: 34px;
+    text-align: center;
+    font-weight: 500;
+}
+.google-ad h6::after{
+    content: '';
+    height: 2px;
+    width: 150px;
+    background-color: #961414;
+    display: block;
+    margin: auto;
+}
+.google-ad .card-body{
+   background-color: #dbeef7;
+} 
+.google-ad .card p{
+    font-weight: 500;
+}
+.google-ad .wrapper .Tag-text-big{
+    padding:10px;
+    width: 50%;
+    background: #bbbbbb;
+    font-size: 30px;
+    font-weight: 500;
+    box-shadow: 1px 4px 2px 2px #0515f7b4;
+}
+.google-ad .wrapper .text{
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 500; 
+}
 .google-ad .w-4 h3 b{
     padding-left: 20px;
     margin:0px;
@@ -1658,7 +1723,45 @@ i{
     text-shadow: 2px 6px 5px gray;
     margin: 10px;
 }
-
+.whatsapp-api h4{
+    text-align: center;
+    padding:  20px;
+}
+.whatsapp-api h6{
+    text-shadow: 2px 6px 5px gray;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font-size: 34px;
+    text-align: center;
+    font-weight: 500;
+}
+.whatsapp-api h6::after{
+    content: '';
+    height: 2px;
+    width: 150px;
+    background-color: #961414;
+    display: block;
+    margin: auto;
+}
+.whatsapp-api .card-body{
+   background-color: #dbeef7;
+} 
+.whatsapp-api .card p{
+    font-weight: 500;
+}
+.whatsapp-api .wrapper .Tag-text-big{
+    padding:10px;
+    width: 50%;
+    background: #bbbbbb;
+    font-size: 30px;
+    font-weight: 500;
+    box-shadow: 1px 4px 2px 2px #0515f7b4;
+}
+.whatsapp-api .wrapper .text{
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 500; 
+}
 .whatsapp-api .w-4 h3 b{
     padding-left: 20px;
     margin:0px;
