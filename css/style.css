@@ -15,7 +15,6 @@ body{
 
 
 /*===============Nav bar CSS Started===============*/
-
 .container-fluid li a{
     font-size: 29px;
     padding : 10px;
@@ -45,8 +44,16 @@ body{
     width: 50px;
     padding: 0px;
 }
-
 /*===============Nav bar CSS End===============*/
+
+
+
+
+
+
+
+
+
 
 
 
@@ -292,6 +299,16 @@ i{
 }
 
 /*===============Footer CSS & Media Query End===============*/
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -647,6 +664,13 @@ i{
 
 
 
+
+
+
+
+
+
+
 /*===============Home & About us css started===============*/
 
 .body-about{
@@ -676,9 +700,9 @@ i{
     font-size: 20px;
     font-weight: 500;
 }
+/*===============home & about us CSS End==============*/
 
 /*===============Home & About us Media Query started===============*/
-
 @media (min-width:320px){
     .wrapper .Tag-text-big {
         padding: 10px;
@@ -741,8 +765,11 @@ i{
 
 
 
-/*===============Career css started===============*/
 
+
+
+
+/*===============Career css started===============*/
 .career-body{
     background: #CAF7FC;
 }
@@ -784,6 +811,7 @@ i{
     font-size:25px;
     font-weight: 500;
 }
+/*===============Career css End===============*/
 
 /*===============Career Media Querry started===============*/
 
@@ -848,6 +876,10 @@ i{
 
 
 
+
+
+
+
 /*===============privacy css started===============*/
 
 .body-privacy{
@@ -868,6 +900,7 @@ i{
   margin: 10px;
   padding-left: 30px;
 }
+/*===============privacy css End===============*/
 
 
 
@@ -895,6 +928,7 @@ i{
 .section-B p{
     margin: 20px;
 }
+/*===============refund css End==============*/
 
 
 
@@ -907,7 +941,6 @@ i{
 
 
 /* =========== our service started============== */
-
 .service-body{
     background: #bfe4f7;
 }
@@ -938,6 +971,7 @@ i{
 .card-size{
     width: 18rem;
 }
+/* =========== our service End============== */
 
 /* =========== our service Media Query started============== */
 
@@ -994,6 +1028,13 @@ i{
 }
 
 /* =========== our service CSS & Media Querystarted============== */
+
+
+
+
+
+
+
 
 
 /*========webdev css started==========*/
@@ -1067,6 +1108,7 @@ i{
 .card-size-web{
     width: 18rem;
 }
+/*========webdev css End=========*/
 
 /*========Webdev Media Query started==========*/
 
@@ -1222,7 +1264,15 @@ i{
  
 }
 
-/*========Webdev css & Media Query End==========*/
+/*========Webdev Media Query End==========*/
+
+
+
+
+
+
+
+
 
 
 
@@ -1287,6 +1337,7 @@ i{
 .web-host .w-2 h3 a:hover{
     color:#2359eb;
 }
+/*================Web-host css End===================*/
 
 /*================Web-host Media Query started===================*/
 
@@ -1396,8 +1447,13 @@ i{
         box-shadow: 1px 4px 2px 2px #0515f7b4;
     }
 
-
 }
+/*================Web-host Media Query End===================*/
+
+
+
+
+
 
 
 
@@ -1471,6 +1527,11 @@ i{
 .meta-data .w-4 h3 a:hover{
     color:#2359eb;
 }
+/*===============metadata css End===============*/
+
+
+
+
 
 
 
@@ -1541,6 +1602,7 @@ i{
 .google-ad .w-4 h3 a:hover{
     color:#2359eb;
 }
+/*=================Google-ads css End==============*/
 
 
 
@@ -1551,7 +1613,8 @@ i{
 
 
 
-/* ===============whatsapp bulk messaging stated===============*/
+
+/* ===============whatsapp bulk messaging css stated===============*/
 .whatsapp-bulk{
     padding: 20px;
     text-align: center;
@@ -1566,6 +1629,10 @@ i{
     margin: 20px;
     text-align: center;
 }
+/* ===============whatsapp bulk messaging  css End===============*/
+
+
+
 
 
 
@@ -1634,6 +1701,7 @@ i{
 .card-back2{
     background-color: #99fcd2;
 }
+/*===============whatsapp-broad casting css End===============*/
 
 
 
@@ -1647,8 +1715,7 @@ i{
 
 
 
-
-/*===============whatsapp-board casting css started===============*/
+/*===============whatsapp chatbot css started===============*/
 .chatbot-body{
     background: #CAF7FC;
 }
@@ -1699,6 +1766,7 @@ i{
 .chat-bot .w-4 h3 a:hover{
     color:#2359eb;
 }
+/*===============whatsapp chatbot css End===============*/
 
 
 
@@ -1779,6 +1847,8 @@ i{
 .whatsapp-api .w-4 h3 a:hover{
     color:#2359eb;
 }
+/*===============whatsapp-API css End===============*/
+
 
 
 
@@ -1821,6 +1891,11 @@ i{
 .staff-hiring  .w-4 h3 a:hover{
     color:#2359eb;
 }
+/*===============staff hiring css End===============*/
+
+
+
+
 
 
 
@@ -1860,6 +1935,10 @@ i{
 .cust-support .w-4 h3 a:hover{
     color:#2359eb;
 }
+/* ==================cutomer support css End===================*/
+
+
+
 
 
 
@@ -1869,7 +1948,6 @@ i{
 
 
 /* ==================faq css started===================*/
-
 .faq-body{
     background: #dec2fc;
 }
@@ -1881,6 +1959,14 @@ i{
 .card-back3{
     background-color: #e4c0f8;
 }
+/* ==================faq css End===================*/
+
+
+
+
+
+
+
 
 
 
@@ -1889,7 +1975,7 @@ i{
 .serv-faq .accordion{
     padding: 20px;
 }
-
+/* ================== Service faq css End===================*/
 
 
 
@@ -1900,3 +1986,34 @@ i{
 .car-faq .accordion{
     padding: 20px;
 }
+/* ==================Creer faq css End==================*/
+
+
+
+
+
+
+
+
+/* ==================scroll top button css started===================*/
+.gotop-btn{
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    background: #9e8bf7;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 22px;
+    scroll-behavior: smooth;
+}
+/* ==================scroll top button css End===================*/
+
+
+
+
+
